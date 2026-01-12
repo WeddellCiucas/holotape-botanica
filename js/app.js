@@ -1,6 +1,4 @@
-/* =========================
-   SCREEN REFERENCES
-========================= */
+
 const screens = {
   cover: document.getElementById("cover"),
   toc: document.getElementById("toc"),
@@ -11,9 +9,6 @@ function column(screen) {
   return screens[screen].querySelector(".terminal-column");
 }
 
-/* =========================
-   SCREEN SWITCHING
-========================= */
 function show(screen) {
   Object.values(screens).forEach(s => {
     s.classList.remove("active");
@@ -24,13 +19,9 @@ function show(screen) {
   next.style.display = "block";
   next.classList.add("active");
 
-  /* reset scroll for consistency */
   next.scrollTop = 0;
 }
 
-/* =========================
-   COVER
-========================= */
 function bindCover() {
   const play = document.getElementById("playHolotape");
   if (!play) return;
@@ -41,9 +32,6 @@ function bindCover() {
   });
 }
 
-/* =========================
-   TABLE OF CONTENTS
-========================= */
 function buildTOC() {
   let text = "DIRECTORY\n────────────\n\n";
 
@@ -76,9 +64,6 @@ text += "\n";
   column("toc").innerHTML = `<pre>${text}</pre>`;
 }
 
-/* =========================
-   ENTRY LOADING
-========================= */
 function loadEntry(file) {
   if (!file) return;
 
@@ -101,9 +86,6 @@ function loadEntry(file) {
     });
 }
 
-/* =========================
-   EVENT DELEGATION
-========================= */
 document.addEventListener("click", e => {
   const tocLink = e.target.closest(".toc-link[data-file]");
   if (tocLink) {
@@ -117,9 +99,6 @@ document.addEventListener("click", e => {
   }
 });
 
-/* =========================
-   ENTRY COUNT
-========================= */
 function animateEntryCount() {
   const el = document.getElementById("entryCount");
   if (!el) return;
@@ -134,8 +113,6 @@ function animateEntryCount() {
   }, 60);
 }
 
-/* =========================
-   INIT
-========================= */
 bindCover();
 animateEntryCount();
+
