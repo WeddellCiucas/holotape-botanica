@@ -1,4 +1,4 @@
-/* ===== RESET / PAGE ===== */
+
 html, body {
   margin: 0;
   width: 100%;
@@ -8,7 +8,6 @@ html, body {
   overflow: hidden;
 }
 
-/* ===== TERMINAL FRAME (HARD CENTERED) ===== */
 #terminal {
   position: absolute;
   inset: 0;
@@ -31,7 +30,6 @@ pre.cover {
 }
 
 
-/* ===== SCREENS (NO SCROLL HERE) ===== */
 .screen {
   display: none;
   position: absolute;
@@ -42,7 +40,6 @@ pre.cover {
   display: block;
 }
 
-/* ===== SCROLL LAYER (SCROLLBAR LIVES HERE) ===== */
 .screen-scroll {
   position: absolute;
   inset: 0;
@@ -54,10 +51,9 @@ pre.cover {
   box-sizing: border-box;
 }
 
-/* Hide scrollbar but KEEP scrolling */
 .screen-scroll {
-  scrollbar-width: none;        /* Firefox */
-  -ms-overflow-style: none;     /* IE/Edge */
+  scrollbar-width: none;       
+  -ms-overflow-style: none;    
 }
 
 .screen-scroll::-webkit-scrollbar {
@@ -66,14 +62,12 @@ pre.cover {
 }
 
 
-/* ===== CENTERED CONTENT COLUMN ===== */
 .terminal-column {
   max-width: 80ch;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ===== TEXT ===== */
 pre {
   margin: 0;
   white-space: pre-wrap;
@@ -81,7 +75,6 @@ pre {
   text-align: left;
 }
 
-/* ===== LINKS / NAV ===== */
 .nav,
 .cover-link,
 .link {
@@ -114,13 +107,11 @@ pre {
   margin-bottom: 2rem;
 }
 
-/* ===== TERMINAL GLASS OVERLAY ===== */
 #terminal::before {
   content: "";
   position: absolute;
   inset: 0;
 
-  /* glossy reflection + vignette */
   background:
     radial-gradient(
       ellipse at top,
@@ -139,7 +130,6 @@ pre {
   z-index: 10;
 }
 
-/* ===== SCANLINES ===== */
 #terminal::after {
   content: "";
   position: absolute;
@@ -158,7 +148,6 @@ pre {
   z-index: 11;
 }
 
-/* ===== ENTRY GALLERY ===== */
 .gallery {
   display: flex;
   gap: 12px;
@@ -178,7 +167,6 @@ pre {
   cursor: pointer;
 }
 
-/* subtle terminal scrollbar */
 .gallery::-webkit-scrollbar {
   height: 6px;
 }
@@ -186,7 +174,6 @@ pre {
   background: rgba(124,255,124,0.3);
 }
 
-/* ===== TERMINAL LINKS ===== */
 a {
   color: #7cff7c;
   text-decoration: none;
@@ -197,3 +184,4 @@ a:hover {
   color: #b6ffb6;
   border-bottom-style: solid;
 }
+
