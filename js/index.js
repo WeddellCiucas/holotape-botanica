@@ -10,6 +10,7 @@ const INDEX = [
   { title: "BARREL CACTUS", letter: "B", file: "entries/barrelcactus.html" },
   { title: "BLACKBERRY", letter: "B", file: "entries/blackberry.html" },
   { title: "BLACK-EYED SUSAN", letter: "B", file: "entries/blackeyedsusan.html" },
+  { title: "BLUEBERRY", letter: "B", file: "entries/blueberry.html" }, 
   { title: "BOXWOOD", letter: "B", file: "entries/boxwood.html" },
   { title: "BROCCOLI", letter: "B", file: "entries/broccoli.html" },
 
@@ -148,3 +149,4 @@ const FUNGI = [
 const APPENDIX = [
   { title: "APPENDIX A — Patch Notes", file: "appendix/patchnotes.html" }
 ];
+
