@@ -86,6 +86,7 @@ const INDEX = [
   { title: "ONION", letter: "O", file: "entries/onion.html" },
 
   { title: "PANSY", letter: "P", file: "entries/pansy.html" },
+  { title: "PATCHOULI", letter: "P", file: "entries/patchouli.html"},
   { title: "PEACH", letter: "P", file: "entries/peach.html" },
   { title: "PEAR", letter: "P", file: "entries/pear.html" },
   { title: "PINE", letter: "P", file: "entries/pine.html" },
@@ -149,4 +150,5 @@ const FUNGI = [
 const APPENDIX = [
   { title: "APPENDIX A — Patch Notes", file: "appendix/patchnotes.html" }
 ];
+
 
