@@ -89,9 +89,10 @@ const INDEX = [
   { title: "PATCHOULI", letter: "P", file: "entries/patchouli.html"},
   { title: "PEACH", letter: "P", file: "entries/peach.html" },
   { title: "PEAR", letter: "P", file: "entries/pear.html" },
+  { title: "PEYOTE CACTUS", letter: "P", file: "entries/peyotecactus.html" },
   { title: "PINE", letter: "P", file: "entries/pine.html" },
   { title: "PINTO BEANS", letter: "P", file: "entries/pintobeans.html" },
-  { title: "PINYON PINE", letter: "P", file: "entries/pnyonpine.html" },
+  { title: "PINYON PINE", letter: "P", file: "entries/pinyonpine.html" },
   { title: "POBLANO PEPPER", letter: "P", file: "entries/poblanopepper.html" },
   { title: "POTATO", letter: "P", file: "entries/potato.html" },
   { title: "PRICKLY PEAR", letter: "P", file: "entries/pricklypear.html" },
@@ -105,6 +106,7 @@ const INDEX = [
   { title: "RED CEDAR TREE", letter: "R", file: "entries/redcedar.html" },
   { title: "RED SEAWEED", letter: "R", file: "entries/redseaweed.html" },
   { title: "RHODODENDRON", letter: "R", file: "entries/rhododendron.html" },
+  { title: "RHUBARB", letter: "R", file: "entires/rhubarb.html" },
   { title: "RICE", letter: "R", file: "entries/rice.html" },
   { title: "ROSE", letter: "R", file: "entries/rose.html" },
 
@@ -150,5 +152,3 @@ const FUNGI = [
 const APPENDIX = [
   { title: "APPENDIX A — Patch Notes", file: "appendix/patchnotes.html" }
 ];
-
-
