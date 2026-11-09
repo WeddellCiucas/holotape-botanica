@@ -150,5 +150,6 @@ const FUNGI = [
 ]
 
 const APPENDIX = [
-  { title: "APPENDIX A — Patch Notes", file: "appendix/patchnotes.html" }
+  { title: "APPENDIX A — Patch Notes", file: "appendix/patchnotes.html" },
+  { title: "APPENDIX B-1 - Interview: M.B.", file: "appendix/interviewmb.html" }
 ];
