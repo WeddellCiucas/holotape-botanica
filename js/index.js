@@ -106,7 +106,7 @@ const INDEX = [
   { title: "RED CEDAR TREE", letter: "R", file: "entries/redcedar.html" },
   { title: "RED SEAWEED", letter: "R", file: "entries/redseaweed.html" },
   { title: "RHODODENDRON", letter: "R", file: "entries/rhododendron.html" },
-  { title: "RHUBARB", letter: "R", file: "entires/rhubarb.html" },
+  { title: "RHUBARB", letter: "R", file: "entries/rhubarb.html" },
   { title: "RICE", letter: "R", file: "entries/rice.html" },
   { title: "ROSE", letter: "R", file: "entries/rose.html" },
 
